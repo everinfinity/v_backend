@@ -2,7 +2,7 @@ var http = require("http");
 // var url = require("url");
 var request = require("postman-request");
 
-const pUrl = "https://npmjs.org";
+const pUrl = "https://api.videoo.dev";
 
 const proxyRequest = (req, res) => {
   // var queryData = url.parse(req.url, true).query;
