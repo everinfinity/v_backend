@@ -16,6 +16,8 @@
     "morgan": "^1.10.0",
     "node-iframe": "^1.9.1",
     "node-iframe-replacement": "^1.0.0",
-    "open": "^8.4.0"
+    "open": "^8.4.0",
+    "postman-request": "^2.88.1-postman.32",
+    "url": "^0.11.0"
   }
 }
