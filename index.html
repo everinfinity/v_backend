@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		iframe {
+			height: 100vh;
+		}
+	</style>
+</head>
+<body>
+	<form id="form">
+		<input type="text" name="url" id="url">
+		<input type="submit" name="" value="visit">
+	</form>
+	<iframe src="" id="iframe" width="100%"></iframe>
+</body>
+<script type="text/javascript">
+	document.getElementById("form").addEventListener("submit", (e) => {
+		e.preventDefault();
+		const url = document.getElementById("url").value;
+		document.getElementById("iframe").src = `/iframe/?url=${url}`;
+	})
+</script>
+</html>
