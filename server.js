@@ -18,4 +18,4 @@ app.use((req, res) => {
     }).pipe(res);
 });
 
-app.listen()
+app.listen(80)
