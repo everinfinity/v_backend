@@ -2,7 +2,7 @@ const express = require("express");
 const request = require("postman-request");
 const cors = require("cors");
 
-const ProxyURL = "https://api.videoo.dev";
+const ProxyURL = "https://development.api.videoo.dev";
 
 const app = express();
 
